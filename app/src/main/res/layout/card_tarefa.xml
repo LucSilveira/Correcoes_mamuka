@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@drawable/style_card"
+        android:padding="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="3dp"
+>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/nomeProjeto"
+                android:textSize="18dp"
+                android:text="xxxx"
+                android:maxLength="20"
+                android:layout_marginRight="5dp"
+        />
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/statusTarefa"
+                android:textSize="18dp"
+                android:text="XXXXXXXX"
+                android:gravity="end"
+        />
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nomeTarefa"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:maxLength="200"
+            android:layout_marginTop="8dp"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cronograma"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:maxLength="200"
+            android:layout_marginTop="8dp"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    />
+
+
+</LinearLayout>
